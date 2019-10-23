@@ -1,0 +1,40 @@
+.listWrapper {
+  padding: 0;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  margin-bottom: 10px;
+  background: #fff;
+  transition: all .1s linear
+}
+
+.list.active {
+  background: rgb(187, 216, 220);
+  box-shadow: 0 4px 8px -2px #999;
+}
+
+.listId {
+  width: 30px;
+  background: rgb(96, 125, 139);
+  padding: 5px 5px 0 5px;
+  text-align: center;
+}
+
+.listName {
+  flex: 1;
+}
+
+.listName>a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #444444;
+  /* font-weight: bold; */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.listName>a.active {
+  color: white
+}

@@ -1,0 +1,11 @@
+<div>
+
+  <ul class="listWrapper">
+    <li *ngFor="let hero of heroList" class="list" [class.active]="hero.id === activeHeroId"
+      (click)="handleClick(hero)">
+      <div class="listId"><img [src]="hero.img" width="30" alt=""></div>
+      <div class="listName"><a [class.active]="hero.id === activeHeroId" href=""
+          [routerLink]="['/detail', hero.id]">{{hero.name | uppercase}}</a></div>
+    </li>
+  </ul>
+</div>
