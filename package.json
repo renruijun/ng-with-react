@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --open --host 192.168.1.231 --port 4201",
+    "start": "ng serve --open --port 4201",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
